@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Manrope:wght@300;400;500&family=Oswald&family=Ubuntu:wght@300;400&display=swap');
+body{
+    font-family: Manrope;
+}
+.header{
+    padding: 0 5%;
+    display: flex;
+    /* position: fixed; */
+    /* width: 100vw; */
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    background: white;
+}
+.header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.header ul li{
+    margin-right: 30px;
+    font-size: 14px;
+    font-family: Manrope;
+}
+.header ul li:hover {
+ color: red;
+}
+.footer{
+    padding: 2% 5% 2% 8%;
+}
+.footer a{
+    color: #000;
+    font-size: 12px;
+}
+.top-sect{
+    display: flex;
+    justify-content: space-between;
+}
+.top-act{
+    width: 40%;
+}
+.top-act p{
+    font-size: 14px;
+    width: 64%;
+}
+.bot-act{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.footer ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer ul a{
+    text-decoration: none;
+    text-align: left;
+}
+.foot{
+    padding-bottom: 40px;
+    border-bottom: solid 1px #f1f1f1;
+}
+.fft li{
+margin-right: 40px;
+}
+.med-center{
+    padding: 2% 5% 2% 8%;
+   
+}
+.val-center{
+    padding: 2% 5% 2% 8%;
+    
+}
+.ex-center{
+    /* position: relative; */
+    padding: 2% 5% 2% 8%;
+    display: flex;
+    /* margin-top: 40px; */
+    justify-content: space-between;
+}
+.med-center h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.med-left{
+    width: 45%;
+   
+}
+.val-left{
+    width: 60%;
+  
+}
+.val-center {
+    font-size: 58px;
+    font-weight: bold;
+    /* width: 40%; */
+}
+.med-left h2{
+    font-size: 17px;
+    width: 65%;
+    font-weight: bold;
+}
+.med-left button{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.med-left button p{
+    padding-left: 20px;
+}
+.med-cir{
+    background-color: #004cc7;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.med-cirr{
+    background-color: #004cc7;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.med-cir p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.med-cirr p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ex-right{
+    width: 58%;
+    height: 100%;
+    background: #f7f9ff;
+    padding: 30px;
+}
+.ex-left{
+    width: 45%;
+   
+}
+.ex-left h1{
+    font-size: 58px;
+    width: 60%;
+    font-weight: bold;
+}
+.ex-left h2{
+    font-size: 17px;
+    width: 65%;
+    font-weight: bold;
+}
+.ex-right p{
+    font-size: 14px;
+    color: #004cc7;
+}
+.ex-right h3{
+    font-size:20px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.ex-right h4{
+    font-size: 16px;
+    width: 80%;
+    font-weight: 400;
+}
+.uni {
+    border-top: solid 1px #f2f2f2;
+    padding-top: 10px;
+}
+.uni h5{
+    font-size: 18px;
+    font-weight: normal;
+}
+.uni p{
+    font-size: 16px;
+    font-weight: normal;
+}
+.conf{
+    width: 40%;
+}
+.land-hero{
+    padding: 0% 7%;
+    /* height: 100vh; */
+    margin-bottom: 40px;
+
+}
+ul li a{
+    color: #000;
+}
+.land-hero  h1{
+    font-size: 58px;
+    width: 250%;
+    z-index: 1;
+    font-weight: bold;
+    margin-top: 40%;
+}
+.land-hero p{  
+}
+.land-img{
+    z-index: -1;
+    width: 78%;
+    height: 20%;
+}
+.land-hero button{
+    align-items: center;
+    cursor: pointer;
+}
+.med-content{
+    width: 250px;
+    margin-right: 20px;
+}
+.med-content img{
+    width: 250px;
+    height: 250px;
+}
+.med-content h3{
+    font-size: 17px;
+    padding: 15px 0;
+}
+.med-content p{
+    font-size: 14px;
+}
+.med-right{
+    width: 55%;
+    overflow-x: scroll;
+    /* scrollbar-height: none; */
+    display: flex;
+    position: relative;
+    max-height: 480px;
+}
+.med-right::-webkit-scrollbar {
+    display: none;
+}
+.mobil{
+    display: none;
+}
+.med-contain{
+    /* position: absolute; */
+    border-top: #f2f2f2 solid 1px;
+    padding-top: 20px;
+    display: flex;
+    /* width: 100%; */
+ 
+}
+.nav-link ul{
+    display: flex;
+    flex-direction: column;
+}
+.nav-link li{
+    color: #000;
+    border-bottom: solid 1px #f2f2f2;
+    /* padding-bottom: 40px; */
+    height: 80px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-link a{
+    color: black;
+    font-weight: 500;
+}
+.footer h1{
+    font-size: 18px;
+}
+.footer a{
+    font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+    .ex-center{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    } 
+    .ex-left{
+        width: 100%;
+    }
+    .ex-right{
+        width: 100%;
+    }
+    .ex-right h4{
+        width: 100%;
+        font-weight: 400;
+    }
+    .ex-left{
+        width: 100%;
+       
+    }
+    .ex-left h2{
+        width: 100%;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+    #about a{
+        font-size: 14px;
+        padding: 15px 10px;
+    }
+    #media a{
+        font-size: 14px;
+        padding: 15px 10px;
+    }
+    .ex-left h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .val-center h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .med-center h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .conf{
+        width: 100%;
+    }
+    .val-left{
+        width: 100%;
+    }
+    .land-hero h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .land-hero p{
+        font-size: 12px;
+    }
+    .land-img{
+        width: 100%;
+    }
+    .land-hero button{
+        align-items: center;
+        cursor: pointer;
+    }
+    .land-hero button p{
+        text-decoration: underline;
+    }
+    .med-left{
+        width: 100% ;
+    }
+    .med-left h2{
+        width: 100% !important;
+        font-weight: 300;
+        font-size: 14px;
+
+    }
+    .med-left buttton{
+        width: 100%;
+    }
+    .med-left buttton p{
+        text-decoration: underline;
+    }
+    .med-right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* position: relative; */
+        max-height: auto;
+    }
+    .med-contain{
+        display: flex;
+        flex-direction: column;
+        border: none    ;
+        
+    }
+    .med-content{
+        border-top: solid 1px #f2f2f2;
+    }
+    .top-act{
+        width: 100%;
+    }
+    .top-act p{
+        width: 100%;
+    }
+    .foot{
+        display: flex;
+        justify-content: space-between;
+    }
+    .foot img{
+        /* width: 50%; */
+    }
+    .mobil{
+        display: none;
+        background: #fff;
+        height: 100vh;
+    }
+   
+}
+/* @media only screen and (min-width: 1000px) {
+    .land-hero h1{
+        font-size: 40px;
+        width: 100%;
+        margin-top: 10px;
+    }
+} */
+@media only screen and (max-width: 990px) {
+    .ex-center{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    } 
+    .ex-left{
+        width: 100%;
+    }
+   
+    .ex-right{
+        width: 100%;
+    }
+    .ex-right h4{
+        width: 100%;
+        font-weight: 400;
+    }
+    .ex-left{
+        width: 100%;
+       
+    }
+    .ex-left h2{
+        width: 100%;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+    .ex-left h1{
+        font-size: 40px;
+        width: 100%;
+    }
+    .val-center h1{
+        font-size: 40px;
+        width: 100%;
+    }
+    .med-center h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .conf{
+        width: 100%;
+    }
+    .val-left{
+        width: 100%;
+    }
+    .land-hero h1{
+        font-size: 40px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .land-hero p{
+        font-size: 16px;
+    }
+    .land-img{
+        width: 100%;
+    }
+    .land-hero button{
+        align-items: center;
+        cursor: pointer;
+    }
+    .land-hero button p{
+        text-decoration: underline;
+    }
+    .med-left{
+        width: 40%;
+    }
+    .med-left h2{
+        width: 100%;
+        font-weight: bold;
+        font: 17px;
+        line-height: 30px;
+    }
+ 
+  
+}
+@media only screen and (min-width: 700px) and (max-width: 1100px) {
+    .foot li{
+        font-size: 12px;
+    }
+}

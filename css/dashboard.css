@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Ubuntu:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+}
+/* .total{
+    width: 100vw;
+} */
+body{
+    font-family: ubuntu;
+}
+.profile{
+    display: none;
+    position: fixed;
+    overflow: scroll;
+    top: 0;
+    /* background: transparent; */
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+}
+.xbtn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.pack{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pack h1{
+    font-size: 14px;
+    margin: 5px 0;
+}
+.pack h2{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.p-line{
+    width: 100%;
+    height: 1px;
+    background: #EAEDF3;
+    margin: 16px 0;
+}
+.p2-cir{
+    height: 50px;
+    width: 50px;
+    border: solid .5px #AEBACE;
+    color: #000;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-cir{
+    height: 40px;
+    width: 40px;
+    border: solid .5px #AEBACE;
+    color: #000;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free{
+    background-color: #eaedf3;
+    font-size: 14px;
+    padding: 5px;
+    width: 70px;
+}
+.free button{
+    outline: none;
+    border: none;
+}
+.imp{
+    background-color: #1750A7;
+    font-size: 14px;
+    padding: 5px;
+    width: 100px;
+    color: #fff;
+}
+.pr-content{
+    position: relative;
+    left: 80%;
+    height: 100vh;
+    overflow: scroll;
+    width: 20%;
+    padding: 15px;
+    background-color: #fff;
+}
+.downl{
+    background: #e8f1ff;
+    display: flex;
+    color: #1750A7;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 14px;
+}
+.downl p{
+    font-size: 14px;
+}
+.downll p{
+    font-size: 14px;
+}
+.downll{
+    background: #1750A7;
+    display: flex;
+    color: #fff;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 14px;
+}
+.swtbal a{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px; 
+}
+h3{
+    text-align: center;
+    font-size: 10px;
+    margin: 10px 0;
+}
+.bal{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.bal h1{
+    font-size: 10px;
+}
+.bal h2{
+    font-size: 10px;
+    color: #7d8aa2;
+}
+.bal span{
+    font-size: 14px;
+}
+.cov{
+    margin-left: 10px;
+}
+select{
+    background: #EAEDF3;
+    color: black;
+    padding: 10px;
+    outline: none;
+    /* border: #EAEDF3 solid .5px; */
+    /* width: 10px; */
+}
+.feat-cir{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #EAEDF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-dash{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    /* padding: 20px 10px; */
+    overflow: scroll;
+}
+.containn h2{
+    font-size: 14px;
+}
+.containn p{
+    font-size: 12px;
+}
+.closeDash{
+    cursor: pointer;
+    background: #000;
+    width: 40px;
+    height: 40px;
+    /* margin: 0 40px; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dashboard{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #AEBACE;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+}
+.dashboard .contain{
+    width: 80%;
+    margin-left: 5%;
+}
+.logo{
+    margin-left: 5%;
+}
+.dashboard p{
+    font-size: 12px;
+    width: 230px;
+    /* font-family: ubuntu, sans-serif; */
+    color: #4b5361
+}
+.dashboard button{
+    background: #000;
+    color: #fff;
+    display: flex;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+}
+.dashboard button p{
+    color: #fff;
+    /* font-family: ubuntu, sans-serif; */
+}
+.arrw{
+    width: 200px;
+    height: 20px;
+    padding-right: 5px;
+}
+.dashboard h2{
+    font-size: 14px;
+    color: #000;
+}
+.closeDashboard{
+    cursor: pointer;
+    background: #000;
+    width: 50px;
+    height: 50px;
+    margin: 0 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.str-line{
+    height: 1px;
+    width: 88vw;
+    background: #000;
+    margin: 20px 0;
+}
+.contact{
+    padding-left: 11%;
+}
+.contact p{
+    font-size: 16px;
+}
+.contact a{
+    color: #1750A7;
+    font-size: 14px;
+}
+.inner{
+    background: #fff;
+    width: 90vw;
+    height: 100vh;
+    padding-top: 20px;
+    /* padding-left: 20px; */
+}
+.inner button{
+    float: right;
+}
+nav p{
+    /* font-family: ubuntu; */
+    font-size: 8px;
+    color: #333;
+    text-transform: uppercase;
+}
+.right-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.right-cir{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    border:solid #F1f1f1 3px;
+}
+.sw p{
+    font-size: 10px;
+}
+.header{
+    border-bottom: solid#fff .5px;
+}
+.container h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    /* font-family: ubuntu, sans-serif; */
+}
+.deposit{
+    background: #F4F7FB;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+    height: 80vh;
+}
+.deposit img{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+.deposit h3{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.deposit h4{
+    color: #4b5361;
+    font-size: 14px;
+    line-height: 1.4285714286;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.deposit button{
+    background: #1750A7;
+    color: #fff;
+    font-size: 13px;
+    height: 30px;
+}
+.deposit img{
+    width: 100px;
+    height: 80px;
+}
+.swct{
+    font-size: 12px;
+   
+}
+.swct p{
+    text-transform: uppercase;
+}
+.swct span{
+    font-size: 16px;
+    font-weight: bold;
+}
+.cir{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: solid black 1px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-two h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    /* font-family: ubuntu; */
+}
+.dir-table{
+    width: 100%;
+    margin-top: 10px;
+    /* font-family: ubuntu; */
+}
+.dir-table tr{
+    border-bottom: #F4F7FB solid 1px;
+}
+.dir-table td, th{
+    font-size: 12px;
+}
+.dir-table .one{
+    width: 60% ;
+}
+
+
+#chart {
+  max-width: 650px;
+  margin: 35px auto;
+}
+.fpro{
+    font-size: 14px;
+}
+.swd{
+    font-size: 16px;
+}
+
+#notify{
+    display: none;
+    /* background-color: red; */
+    position: fixed;
+    top: 10%;
+    right: 12%;
+}
+.notify{
+    display: block;
+}
+.clip{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 20px;
+    width: 20px;
+    background: #323741;
+    margin-left: 80%;
+}
+.top{
+    background: #323741;
+    width: 15em;
+    height: 2em;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+ .bottom{
+    background: #000;
+    width: 15em;
+    height: auto;
+    padding: 25px;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
+.mobile-notify{
+    display: none;
+    z-index: 2;
+    /* background-color: red; */
+    position: fixed;
+    top: 7%;
+    /* right: 12%; */
+}
+.topp{
+    background: #323741;
+    /* width: auto; */
+    height: 10vh;
+    overflow: scroll;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.bottomm{
+    background: #000;
+    /* width: 100vh; */
+    height: 100vh;
+    padding: 25px;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-transform: uppercase;
+
+}
+.bottom p{
+    font-size: 10px;
+    padding-top: 10px;
+}
+.noti{
+    cursor: pointer;
+}
+/* .pack2{
+    display: none;
+    
+} */
+
+@media only screen and (max-width: 800px) {
+    #notify {
+        /* display: none; */
+        /* background-color: red; */
+        position: fixed;
+        top: 10%;
+        right: 22%;
+    } 
+    .pr-content{
+        position: relative;
+        left: 60%;
+        height: 100vh;
+        overflow: scroll;
+        width: 40%;
+        padding: 15px;
+        background-color: #fff;
+    }
+}
+@media only screen and (max-width: 600px) {
+    /* .hiid{
+        display: none;
+    } */
+    .swct{
+        font-size: 10px;
+       
+    }
+    .fpro{
+        font-size: 10px;
+    }
+    .swd{
+        font-size: 12px;
+    }
+    .swct p{
+        text-transform: uppercase;
+    }
+    .swct span{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .dir-table td, th{
+        font-size: 8px;
+    }
+    .pr-content{
+        position: relative;
+        left: 0;
+        height: 100vh;
+        overflow: scroll;
+        width: 100%;
+        padding: 15px;
+        background-color: #fff;
+    }
+    .pack{
+        display: none;
+    }
+    .pack2{
+        display: block;
+        
+    }
+    .mpack{
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    .freee{
+        background-color: #eaedf3;
+        font-size: 14px;
+        padding: 5px;
+        width: 100px;
+    }
+    .freee button{
+        outline: none;
+        border: none;
+    }
+    .impp{
+        background-color: #1750A7;
+        font-size: 14px;
+        padding: 5px;
+        width: 100%;
+        height: 30px;
+        margin: 20px 0;
+        color: #fff;
+    }
+    .pack2 h1{
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    .pack2 h2{
+        font-size: 12px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+}
+

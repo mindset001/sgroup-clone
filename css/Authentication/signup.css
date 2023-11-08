@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    
+
+}
+#login {
+    display: none;
+}
+
+.navbar{
+    display: none;
+}
+.logo{
+    padding-right: 38%;
+}
+.logo select{
+    border: none;
+    outline: none;
+    background: #f4f7fb1a;
+    color: #fff;
+    padding: 5px 12px;
+    width: 10rem;
+}
+.optionn{
+    border: none;
+    outline: none;
+    background: #f4f7fb1a;
+    color: #fff;
+}
+a{
+    color:#1750A7;
+}
+.left{
+    background-color: #1750A7;
+    background-image: url("../../img/login-main-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 40%;
+    padding: 7%;
+    color: #fff;
+    font-family: ubuntu;
+}
+.line{
+    background-color: #f2f2f2;
+    height: .2px;
+    width: 100% ;
+    opacity: 0.8;
+}
+.contain{
+margin-top: 25px;
+}
+.forex{
+    display: flex;
+    align-items: center;
+}
+.forex h2{
+    font-size: 16px;
+    padding-left: 10px;
+}
+.ico {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f7fb1a;
+}
+.trade{
+    font-size: 14px;
+    width:90%;
+    padding-top: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    background: #fff;
+    padding: 10px 30px;
+}
+.right{
+    background-color: #f1f1f1;
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 6%;
+    font-size: 12px;
+    overflow-x: scroll;
+}
+.selectt{
+    background: transparent;
+    color: black;
+    width: 10px;
+}
+.btn{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: blue;
+    text-transform: uppercase;
+}
+.log{
+    width: 50%;
+}
+.container{
+    width: 70%;
+    padding: 20px;
+    
+}
+
+.form input{
+    border: solid 1px #f2f2f2;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+}
+.shorter{
+    border: solid 1px red;
+    height: 30px;
+    font-family: ubuntu;
+}
+.short input{
+    width: 10rem;
+}
+
+.long input{
+    width: 22rem;
+}
+.form select{
+    width: 22rem;
+    height: 40px !important;
+    border: solid 1px #6e7682 !important;
+    height: 30px;
+    outline: none !important;
+}
+.signup{
+    background: #1750A7;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1080px) {
+   
+    .right{
+        width: 100%;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:10%;
+    /* font-size: 8px; */
+       
+    }
+    .container{
+        width: 90%;
+        padding: 20px;
+    }
+  
+
+  }
+
+
+@media only screen and (max-width: 800px) {
+    .navbar{
+        background-color: #1750A7;
+        background-image: url("../../img/login-main-image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+        position: fixed;
+    }
+    .left {
+      display: none;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 30%; */
+    /* font-size: 8px; */
+       
+    }
+    /* .rightt{
+    padding-top: 10%;
+       
+    } */
+    .container{
+        width: 90%;
+        padding: 20% 20px 20px 20px;
+        /* padding-top: 100%; */
+    }
+    .container-login{
+        width: 90%;
+        padding: 1% 20px 20px 20px;
+        /* padding-top: 100%; */
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 30px;
+        font-size: 10px;
+        /* width: 80%; */
+    }
+    .short input{
+        width: 14rem;
+    }
+    
+    .long input{
+        width: 30rem;
+    }
+    .form select{
+        width: 30rem;
+        height: 40px !important;
+        border: solid 1px #6e7682 !important;
+        height: 30px;
+        outline: none !important;
+    }
+
+  }
+ 
+  @media only screen and (max-width: 450px) {
+    .left {
+      display: none;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80%;
+       
+    }
+    .container{
+        width: 90%;
+        padding: 20px;
+    }
+    .container-login{
+        width: 90%;
+        padding: 1% 20px 20px 20px;
+        /* padding-top: 100%; */
+    }
+    .btn button{
+        font-size: 10px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 30px;
+        /* width: 80%; */
+    }
+    .short input{
+        width: 7rem;
+    }
+    
+    .long input{
+        width: 15rem;
+    }
+    .form select{
+        width: 15rem;
+        
+    }
+    
+    .navbar{
+        padding: 15px;
+    }
+   
+  }
+
+  @media only screen and (max-width: 600px) {
+    .left {
+      display: none;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50%;
+       
+    }
+    .container{
+        width: 90%;
+        padding: 20px;
+    }
+    .container-login{
+        width: 90%;
+        padding: 1% 20px 20px 20px;
+        /* padding-top: 100%; */
+    }
+    .btn button{
+        font-size: 10px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 30px;
+        /* width: 80%; */
+    }
+    .short input{
+        width: 9rem;
+    }
+    
+    .long input{
+        width: 20rem;
+    }
+    .form select{
+        width: 20rem;
+        
+    }
+    
+    .navbar{
+        padding: 15px;
+    }
+   
+  }
+
+  @media only screen and (max-width: 350px) {
+    .short input{
+        width: 6rem;
+    }
+    
+    .long input{
+        width: 14rem;
+    }
+    .form select{
+        width: 14rem;
+        
+    }
+   
+  }
+
+  @media only screen and (max-width: 400px) {
+ 
+  
+    .short input{
+        width: 7.5rem;
+    }
+    
+    .long input{
+        width: 16rem;
+    }
+    .form select{
+        width: 16rem;
+        
+    }
+    
+   
+  }

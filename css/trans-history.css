@@ -1,0 +1,61 @@
+.history{
+    padding: 40px;
+}
+.history h1{
+    font-size: 14px;
+    font-weight: bold;
+}
+.vest p{
+    font-size: 14px;
+}
+.his-cir{
+    height: 5px;
+    width: 5px;
+    border-radius: 50px;
+    background: #7d8aa2;
+}
+.history tr{
+    padding-bottom: 10px;
+    border-bottom: solid 1px #a4a7aa;
+}
+.open{
+    font-size: 12px;
+    color: #a4a7aa;
+}
+.his-sit{
+    font-size: 10px;
+    background: #868c631a;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #878d65;
+}
+.his-eur{
+    font-size: 10px;
+    background: #f9f2f2;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #c88181;
+}
+.fig{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+.trr{
+    padding-bottom: 10px;
+    border-bottom: solid 1px #a4a7aa;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .history{
+        padding: 40px 10px;
+    } 
+    .trr{
+        padding-bottom: 10px;
+        border-bottom: solid 1px #a4a7aa;
+    }
+    .open{
+        color: #878d65;
+    }
+}

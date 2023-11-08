@@ -1,0 +1,388 @@
+.prof{
+    padding: 40px;
+
+}
+.prof h1{
+    margin-bottom: 20px;
+}
+.edit{
+    width: 38%;
+
+}
+.secure{
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+}
+.mosh{
+    background: #fff;
+    width: 100%;
+}
+.mosh img{
+    width: 100%;
+    height: 100px;
+}
+.mosh-cir{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: #EAEDF3 solid 1px;
+    position: relative;
+    top: -30px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    font-weight: 900;
+    /* opacity: .5; */
+}
+.mosh-plus{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: #f4f7fb solid 1px;
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+    left: -30px;
+    background-color: #6E99BC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.mosh-plus:hover{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: #f4f7fb solid 1px;
+    position: relative;
+    color: #fff;
+    font-size: 34px;
+    left: -30px;
+    background-color: #6E99BC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bott{
+    border-bottom: solid 1px #f4f7fb;
+}
+.veri{
+    background: #c98c831a;
+    color: #c88181;
+    padding: 5px;
+    font-size: 10px !important;
+    font-weight: 200 !important;
+}
+.details p{
+    font-size: 12px;
+}
+.details h3{
+    font-size: 12px;
+    font-weight: bold;
+}
+.edit h2{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.secure button{
+    font-size: 10px;
+    width: auto;
+    padding:10px 20px;
+}
+.aactive{
+    background: #fff;
+    color: #1750a7;
+    font-weight: bold;
+}
+.nactive{
+    font-weight: bold;
+    color: #80a3d9;
+}
+.nactive:hover{
+    color: #80a3d9;
+    background: #f1f1f1;
+}
+.passs{
+    /* width: 600px; */
+}
+.inpp{
+    width: 200% ;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: solid black 1px;
+}
+.passs button{
+    width: 22rem;
+    background-color: #1750a7;
+    color: #fff;
+    margin-top: 20px;
+    outline: none;
+}
+.secure input{
+    
+    width: 18rem;
+}
+.markt{
+    padding: 30px 20px;
+    background: #fff;
+}
+.mwarn{
+    display: flex;
+    align-items: center;
+    background: #fff5f5;
+    padding: 10px 20px;
+}
+.mwarn h4{
+    font-size: 14px;
+}
+.mwarn p{
+    color: #646f81;
+    font-size: 12px;
+}
+.msign{
+    border: solid 1px #EAEDF3;
+    padding: 10px;
+    margin-top: 20px;
+}
+.msign p{
+    color: #646f81;
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+.msign h6{
+    color: #646f81;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+.down-cir{
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #EAEDF3;
+}
+.bbtn{
+    background: #e8f1ff;
+    width: 18rem !important;
+    margin-top: 10px;
+    color: #1750a7;
+    height: 40px;
+}
+.bbtn p{
+    font-size: 14px;
+    
+}
+.bbtn3{
+    background: #a8b5cc;
+    color: #fff !important;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bbtn2{
+    background: #646f81;
+    color: #fff !important;
+}
+.fic h1{
+    font-size: 14px;
+    font-weight: bold;
+}
+.fic p{
+    font-size: 12px;
+}
+.notif{
+    padding: 20px;
+    background: #fff;
+}
+.mail-cir{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #eff5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notif h2{
+    font-size: 16px;
+    color: #5e6f8f;
+}
+.notif p{
+    font-size: 12px;
+}
+.turn{
+    height: 40px;
+    width: 160px;
+    background: #1750a7;
+    color: #fff;
+    font-size: 14px;
+}
+
+.file{
+    background: #fff;
+    padding: 20px;
+}
+.pname{
+    width: 48%;
+}
+.pname h6{
+    width: 100% !important;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #000;
+    padding: 5px;
+    font-size: 12px;
+    outline: none;
+}
+.pname input{
+    width: 145% !important;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #000;
+    padding: 5px;
+    font-size: 12px;
+    outline: none; 
+}
+.pname p{
+    font-size: 12px;
+}
+
+.bbtn4{
+    background: transparent;
+    border: dotted 1px #a8b5cc;
+    width: 18rem !important;
+    margin-top: 10px;
+    height: 40px;
+    padding-left: 20px;
+    color: #80a3d9;
+}
+.val{
+    font-size: 10px;
+}
+.port{
+    font-size: 12px;
+}
+.day{
+    width: 150px;
+    margin-right: 10px;
+}
+.month{
+    width: 200px;
+    margin-right: 10px;
+}
+
+.correct{
+    width: 100%;
+    height: 35px;
+    /* padding-bottom:20px ; */
+    /* background-color: red; */
+}
+@media only screen and (max-width: 600px) {
+
+    .hiid{
+        display: none;
+    }
+    .prof{
+        padding: 10px;
+    
+    }
+    .edit{
+        width: 100%;
+    
+    }
+    .secure{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    /* .inpp{
+        width: 50% ;
+    } */
+    .passs button{
+        width: 14rem;
+        background-color: #1750a7;
+        color: #fff;
+        margin-top: 20px;
+        outline: none;
+    }
+    .secure input{
+        
+        width: 12rem;
+    }
+    .bbtn{
+        background: #e8f1ff;
+        width: 16rem !important;
+        margin-top: 10px;
+        color: #1750a7;
+        height: 40px;
+    }
+    .bbtn4{
+        background: transparent;
+        border: dotted 1px #a8b5cc;
+        width: 16rem !important;
+        height: 40px;
+        margin-top: 10px;
+        color: #80a3d9;
+        padding-left: 20px;
+    }
+    .mail-cir{
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        background: #eff5ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pname{
+        width: 89%;
+    }
+    .pname h6{
+        width: 100% !important;
+    }
+    .pname input{
+        width: 100% !important;
+    }
+    .day{
+        width: 50px;
+        margin-right: 10px;
+    }
+    .month{
+        width: 90px;
+        margin-right: 10px;
+    }
+    .correct{
+        width: 100%;
+        /* height: 10px; */
+        position: relative;
+        overflow-x: scroll;
+        padding-bottom:50px ;
+        /* background-color: red; */
+    }
+    /* #file{
+        padding-top: 60px;
+    }
+    #fa2{
+        padding-top: 60px;
+    }
+    #passw{
+        padding-top: 60px;
+    }
+    #mark{
+        padding-top: 60px;
+    } */
+}

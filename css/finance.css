@@ -1,0 +1,219 @@
+.fin{
+    width: 100%;  
+    padding: 40px;
+}
+
+.finance{
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.fleft{
+    width: 40%;
+    /* background-color: red; */
+}
+.fright{
+    width: 56%;
+    /* background: white; */
+}
+.ainp{
+    height: 40px;
+    width: 94%;
+    align-items: center;
+    border: solid 1px #f4f7fb;
+    padding: 0 10px;
+}
+select{
+    width: 100%;
+}
+.fleft select{
+    width: 94%;
+}
+.fleftt select{
+    width: 100%;
+}
+.bttn{
+    background-color: #a8b5cc !important;
+}
+.fleft p, label, select{
+    font-size: 12px;
+    opacity: .6;
+}
+.fright p, label, select{
+    font-size: 12px;
+    /* opacity: .6; */
+}
+.reple label{
+    font-size: 12px;
+    opacity: .6;
+}
+.s-w{
+    width: 100%;
+    height: 40px;
+    border: solid 1px #f4f7fb;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ainp input{
+    width: 80%;
+    border: none;
+    outline: none;
+}
+.reple{
+    background: white;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    
+}
+.replee{
+    background: white;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    
+}
+.s-w1{
+    width: 100%;
+    height: 40px;
+    border: solid 1px #f4f7fb;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 20px ; */
+}
+.s-w1 input{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+.reple button{
+    background: #1750a7;
+    height: 40px;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+}
+.fleft h2, h5{
+    font-size: 14px;
+    /* opacity: .6; */
+}
+.fright h2, h5{
+    font-size: 14px;
+    /* opacity: .6; */
+}
+.fwith{
+    height: 40px;
+    width: 140px;
+    padding: 10px;
+    display: flex;
+    font-size: 12px;
+    color: #1750a7;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+.frep{
+    height: 40px;
+    width: 140px;
+    padding: 10px;
+    display: flex;
+    font-size: 12px;
+    color: #80a3d9;
+    justify-content: center;
+    align-items: center;
+    /* background: white; */
+}
+.yet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7f88960d;
+    height: 85%;
+    padding: 20px;
+}
+.resi{
+    opacity: .5;
+    padding: 10px 0;
+}
+.trrr{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7f88960d;
+}
+.trrr img{
+    width: 100px;
+}
+
+.trrr p{
+    opacity: .5;
+    padding: 30px 0;
+}
+.sel{
+    width: 100px;
+}
+.amt{
+    width: 48%;
+}
+.amt select{
+    border: solid 1px #f4f7fb;
+    height: 40px;
+    width: 120px;
+}
+.nick{
+    width: 46%;
+}
+.amt input{
+    border: solid 1px #f4f7fb;
+    height: 40px;
+    width: 120px;
+}
+.nick input{
+    width: 100%;
+    border: solid 1px #f4f7fb;
+    height: 40px;
+}
+.phone input{
+    border: solid 1px #f4f7fb;
+    height: 40px;
+    width: 96%;
+}
+
+@media only screen and (max-width: 600px) {
+    .finance{
+    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    } 
+    .fleft{
+        width: 100%;
+        /* background-color: red; */
+    }
+    .fright{
+        width: 100%;
+        /* background: white; */
+    }
+    .fin{
+        width: 100%;  
+        padding: 10px;
+    }
+    .fleft select{
+        width: 100%;
+    }
+    .fright{
+        margin-top: 20px;
+    }
+   
+}

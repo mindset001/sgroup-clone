@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Manrope:wght@300;400;500&family=Oswald&family=Ubuntu:wght@300;400&display=swap');
+body{
+    font-family: Manrope;
+}
+.abt-hero{
+    padding: 4% 6%;
+    background: #f7f9ff;
+}
+.imggg{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+.crea{
+    width: 30%;
+}
+.crea p{
+    font-size: 30px;
+    width: 80%;
+    font-weight: 400;
+    /* padding-right: 70px; */
+}
+
+.unii {
+    border-top: solid 1px #f2f2f2;
+    padding-top: 10px;
+}
+.unii h5{
+    font-size: 18px;
+    font-weight: normal;
+}
+.unii p{
+    font-size: 58px;
+    font-weight: normal;
+    color: #004cc7;
+    font-weight: 500;
+}
+.abtt{
+    font-size: 58px;
+    margin-bottom: 40px;
+    width: 30%;
+}
+.abt-right{
+    background: #f7f9ff;
+    width: 30%;
+    padding: 40px;
+
+}
+.abt-right h2{
+    font-size: 18px;
+}
+.abt-right p{
+    font-size: 16px;
+    font-weight: normal;
+}
+.med-cir p{
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .crea{
+        width: 100%;
+    }
+    .crea p{
+        font-size: 30px;
+        width: 100%;
+        font-weight: bold;
+        /* padding-right: 70px; */
+    }
+    .abt-right{
+        background: #f7f9ff;
+        width: 100%;
+        padding: 40px;
+    
+    }
+    .val-left{
+        width: 100%;
+    }
+    .abt-right p{
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .abt-right h2{
+        font-size: 18px;
+    }
+    .unii p{
+        font-size: 18px;
+        float: right;
+    }
+    .imggg{
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+        padding: 20px;
+    }
+    .abtt{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    .abtt{
+        /* font-size: 14px; */
+    }
+    .crea{
+        width: 100%;
+    }
+    .crea p{
+        font-size: 30px;
+        width: 100%;
+        font-weight: bold;
+        /* padding-right: 70px; */
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 1100px) {
+    .crea{
+        width: 100%;
+    }
+    .crea p{
+        font-size: 30px;
+        width: 100%;
+        font-weight: bold;
+        /* padding-right: 70px; */
+    } 
+    .abtt{
+        font-size: 58px;
+        margin-bottom: 40px;
+        width: 45%;
+    }
+    .abt-right{
+        background: #f7f9ff;
+        /* width: 40%; */
+        margin-left: 20px;
+        padding: 20px;
+    
+    }
+    .val-left{
+        /* width: 45%; */
+    }
+    .imggg{
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+        padding: 20px;
+    }
+}
